@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.justify {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.closerB {
+    margin-bottom: 0;
+}
+
+.closerT {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+label {
+    line-height: 25px;
+}
+
+input, textarea {
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black;
+    height: 20px;
+}
+
+textarea {
+    height: unset;
+}
+
+input.submit {
+    display: flex;
+    height: 30px;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 0 30px;
+    margin: auto;
+    font-weight: 600;
+}
+
+input.submit:hover {
+    background-color: rgb(173,216,230);
+}
+
+p {
+    font-style: italic;
+    margin: 0;
+    margin-top: 5px;
+}
+
+#passIntro {
+    font-size: 12px;
+    color: rgb(255, 94, 0);
+}
+
+em {
+    margin-top: 5px;
+}
+
+.incorrectInput {
+    border: 2px solid red;
+}
+
+.incorrectCommentary {
+    font-size: 12px;
+    color: red;
+}
+
+.incorrectCommentary::before {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    content: "\f057   ";
+}
+
+.correctInput {
+    border: 2px solid rgb(0, 177, 0);
+}
+
+.correctCommentary {
+    font-size: 12px;
+    color: rgb(0, 177, 0);
+}
+
+.correctCommentary::before {
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    content: "\f058   ";
+}
